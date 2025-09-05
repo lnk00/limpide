@@ -1,17 +1,15 @@
 {
-	"name": "@repo/ui",
+	"name": "@limpid/ui",
 	"version": "0.0.0",
 	"type": "module",
 	"exports": {
 		"./counter": "./components/counter.ts",
-		"./header": "./components/header.ts",
-		"./setup-counter": "./utils/counter.ts"
+		"./header": "./components/header.ts"
 	},
 	"license": "MIT",
 	"scripts": {},
 	"devDependencies": {
-		"@repo/typescript-config": "*",
-		"eslint": "^8.57.0",
-		"typescript": "5.5.4"
+		"@limpid/typescript-config": "*",
+		"typescript": "^5"
 	}
 }

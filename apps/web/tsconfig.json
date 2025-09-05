@@ -1,5 +1,5 @@
 {
-	"extends": "@limpid/typescript-config/base.json",
+	"extends": "@limpid/typescript-config/vite.json",
 	"include": ["."],
 	"exclude": ["node_modules"]
 }
