@@ -6,26 +6,31 @@ eslint-ls = {command = "vscode-eslint-language-server", args = ["--stdio"], conf
 [[language]]
 name = "javascript"
 language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
 auto-format = true
 
 [[language]]
 name = "typescript"
 language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
 auto-format = true
 
 [[language]]
 name = "tsx"
 language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "tailwindcss-ls", "emmet-ls", "biome" ]
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
 auto-format = true
 
 [[language]]
 name = "jsx"
 language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "tailwindcss-ls", "emmet-ls", "biome" ]
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
 auto-format = true
 
 [[language]]
 name = "json"
 language-servers = [ { name = "vscode-json-language-server", except-features = [ "format" ] }, "biome" ]
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
 
 [[language]]
 name = "svelte"
