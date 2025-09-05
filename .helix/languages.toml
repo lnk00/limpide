@@ -12,25 +12,25 @@ auto-format = true
 [[language]]
 name = "typescript"
 language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
-formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.ts"] }
 auto-format = true
 
 [[language]]
 name = "tsx"
 language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "tailwindcss-ls", "emmet-ls", "biome" ]
-formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.tsx"] }
 auto-format = true
 
 [[language]]
 name = "jsx"
 language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "tailwindcss-ls", "emmet-ls", "biome" ]
-formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.jsx"] }
 auto-format = true
 
 [[language]]
 name = "json"
 language-servers = [ { name = "vscode-json-language-server", except-features = [ "format" ] }, "biome" ]
-formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.js"] }
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "test.json"] }
 
 [[language]]
 name = "svelte"
