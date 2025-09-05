@@ -1,7 +1,8 @@
 {
 	"extends": "@limpid/typescript-config/vite.json",
 	"compilerOptions": {
-		"jsx": "react-jsx"
+		"jsx": "react-jsx",
+		"allowArbitraryExtensions": true
 	},
 	"include": [
 		"."
