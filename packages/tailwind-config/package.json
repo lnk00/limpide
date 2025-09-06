@@ -1,0 +1,13 @@
+{
+	"name": "@limpid/tailwind-config",
+	"version": "0.0.0",
+	"type": "module",
+	"private": true,
+	"exports": {
+		".": "./shared-style.css"
+	},
+	"devDependencies": {
+		"@tailwindcss/vite": "^4.1.13",
+		"tailwindcss": "^4.1.13"
+	}
+}

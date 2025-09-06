@@ -9,6 +9,7 @@
 	},
 	"devDependencies": {
 		"@limpid/typescript-config": "*",
+		"@limpid/tailwind-config": "*",
 		"@tailwindcss/vite": "^4.1.13",
 		"@types/bun": "latest",
 		"@types/react": "^19.1.12",

@@ -17,6 +17,7 @@
         "vite": "^7.1.4",
       },
       "devDependencies": {
+        "@limpid/tailwind-config": "*",
         "@limpid/typescript-config": "*",
         "@tailwindcss/vite": "^4.1.13",
         "@types/bun": "latest",
@@ -28,6 +29,14 @@
       },
       "peerDependencies": {
         "typescript": "^5",
+      },
+    },
+    "packages/tailwind-config": {
+      "name": "@limpid/tailwind-config",
+      "version": "0.0.0",
+      "devDependencies": {
+        "@tailwindcss/vite": "^4.1.13",
+        "tailwindcss": "^4.1.13",
       },
     },
     "packages/typescript-config": {
@@ -177,6 +186,8 @@
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.5", "", {}, "sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og=="],
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.30", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-GQ7Nw5G2lTu/BtHTKfXhKHok2WGetd4XYcVKGx00SjAk8GMwgJM3zr6zORiPGuOE+/vkc90KtTosSSvaCjKb2Q=="],
+
+    "@limpid/tailwind-config": ["@limpid/tailwind-config@workspace:packages/tailwind-config"],
 
     "@limpid/typescript-config": ["@limpid/typescript-config@workspace:packages/typescript-config"],
 
